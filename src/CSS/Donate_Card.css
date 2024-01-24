@@ -1,0 +1,139 @@
+.donate_card_title {
+    font-size: 22px;
+    line-height: 1.455;
+    font-family: "Yeseva One", cursive;
+    font-weight: 400;
+    text-decoration: none;
+    color: #001d23;
+}
+
+.donate_card_title:hover {
+    color: #fc6539;
+    text-decoration: none;
+    transition: 0.3s;
+    -webkit-transition: 0.3s;
+}
+
+.donate_section_btn {
+    color: #001D23;
+    border-radius: 0;
+    background-color: #ffffff;
+    border-color: #ffffff;
+    font-family: "Yeseva One", cursive;
+    min-width: 100px;
+    width: 6.5rem;
+    height: 3.5rem;
+    padding: 7px 13px 6px;
+    white-space: pre-line;
+    font-size: 17px;
+    font-weight: 500;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+
+.donate_section_btn:hover {
+    background: linear-gradient(to right, #FEA444 0%, #FC6539 100%);
+    background-color: #fc6539;
+    color: #ffffff;
+    border-color: #ffffff;
+    transition: 0.3s;
+    cursor: text;
+}
+
+.donate_footer_btn {
+    background-color: transparent;
+    color: #FD8A3F;
+    border: 2px solid #d7d7d7;
+    padding: 10px 20px;
+    font-size: 15px;
+    font-weight: 500;
+    min-height: 45px;
+    min-width: 150px;
+    width: 6vw;
+    height: 3vh;
+    border-radius: 32.5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-width: 2px;
+}
+
+.donate_footer_btn:hover {
+    background-color: #F7F7F7;
+    border-color: #FD8A3F;
+}
+
+.donate_admin_btn {
+    background-color: transparent;
+    color: #001d23;
+    border: none;
+    padding: 10px 20px;
+    min-height: 45px;
+    min-width: 150px;
+    width: 7vw;
+    height: 3vh;
+    border-radius: 32.5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-width: 2px;
+    font-family: "Roboto", sans-serif;
+    font-size: 15px;
+    font-weight: 700;
+}
+
+.donate_admin_btn:hover {
+    color: #fc6539;
+    transition: 0.3s;
+    background-color: #F7F7F7;
+}
+
+.donate_admin_img {
+    width: auto;
+    height: auto;
+}
+
+.check_head {
+    color: #fc6539;
+    display: inline-block;
+    font-family: "Roboto", sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 1;
+    margin: 0px;
+    padding-left: 64px;
+    position: relative;
+}
+
+.check_dash {
+    background-color: #fc6539;
+    height: 3px;
+    position: absolute;
+    left: 46%;
+    width: 43px;
+}
+
+.check_title {
+    color: #001D23;
+    font-family: "Yeseva One", cursive;
+    font-weight: 400;
+    font-size: 60px;
+    width: 60%;
+    line-height: 1.2;
+    text-align: center;
+    position: relative;
+    z-index: 1;
+    margin-bottom: 10rem;
+}
+
+.donate_bg {
+    width: auto;
+    height: auto;
+    left: 35%;
+    bottom: 0%;
+    top: -20%;
+    position: absolute;
+    z-index: -1;
+}

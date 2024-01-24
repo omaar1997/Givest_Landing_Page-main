@@ -1,0 +1,75 @@
+.about_head {
+    color: #fc6539;
+    display: inline-block;
+    font-family: "Roboto", sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 1;
+    margin: 0px;
+    padding-left: 64px;
+    position: relative;
+}
+
+.about_dash {
+    background-color: #fc6539;
+    height: 3px;
+    position: absolute;
+    width: 43px;
+}
+
+.about_title {
+    color: #001D23;
+    font-family: "Yeseva One", cursive;
+    font-weight: 400;
+    font-size: 60px;
+    width: 70%;
+    line-height: 1.2;
+}
+
+.about_custom_word {
+    background: linear-gradient(to right, #FEA444 0%, #FC6539 100%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    width: auto;
+    font-family: "Yeseva One", cursive;
+    font-size: 60px;
+    font-weight: 400;
+    margin: 0;
+}
+
+.paragraph_dash {
+    background-color: #fc6539;
+    height: 85px;
+    position: absolute;
+    width: 4px;
+}
+
+.paragraph_title {
+    color: #464444;
+    font-family: "Yeseva One", cursive;
+    font-size: 22px;
+    line-height: 1.364;
+    margin-bottom: 26px;
+    margin-right: -10px;
+    position: relative;
+    margin-left: 2rem;
+    margin-bottom: 2rem;
+}
+
+.check_img {
+    width: auto;
+    height: auto;
+    margin-bottom: 1%;
+}
+
+.footer_dash {
+    background-color: #fc6539;
+    height: 50px;
+    position: absolute;
+    width: 4px;
+}
+
+.about_footer {
+    position: relative;
+}

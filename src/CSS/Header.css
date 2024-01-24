@@ -1,0 +1,50 @@
+.head {
+    font-family: "Roboto", sans-serif;
+    text-decoration: none;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    background-color: #ffffff;
+    /*padding: 10px;*/
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.btn {
+    color: #595959;
+    font-size: 1.1rem;
+    font-weight: 600;
+}
+
+.Support_Btn {
+    background: linear-gradient(to right, #FEA444 0%, #FC6539 100%);
+    background-color: #fc6539;
+    color: #ffffff;
+    border-radius: 32.5px;
+    border-color: #ffffff;
+    font-size: 20px;
+    font-weight: 500;
+    width: 12vw;
+    height: 7vh;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.btn:hover {
+    cursor: pointer;
+    color: #fc6539;
+    text-shadow: none;
+}
+
+.btn:active {
+    background-image: url("../Images/menu-shape.png");
+    background-repeat: no-repeat;
+    background-position: 45% 15%;
+    text-shadow: none;
+    text-decoration: none;
+    border: none;
+}
+
+.Support_Btn:hover {
+    color: #ffffff;
+}
